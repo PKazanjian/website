@@ -1,4 +1,5 @@
-// Based on older version PHP... use lint and update syntax
+// Based on older PHP version... use lint and update syntax
+
 <?php
 $host="localhost"; // Host name
 $username="root"; // Mysql username
@@ -32,9 +33,5 @@ else {
 echo "Wrong Username or Password";
 }
 ?>
-<br>
-<br>
-<br>
-<?php
-print_r(mysql_error());
-?>
+
+// EOF
